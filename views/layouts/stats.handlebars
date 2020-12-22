@@ -1,0 +1,31 @@
+<div class="container mt">
+
+    <h1 class="text-center">Workout dashboard</h1>
+
+
+    {{#each list}}
+    <div>{{this.type}}</div>
+    {{/each}}
+
+
+    {{#each cardios}}
+    <div>{{this.type}}</div>
+    {{/each}}
+
+    <div class="row mt">
+        <div class="col-md-6">
+            <canvas id="canvas"></canvas>
+        </div>
+        <div class="col-md-6">
+            <canvas id="canvas2"></canvas>
+        </div>
+    </div>
+    <div class="row mt">
+        <div class="col-md-6">
+            <canvas id="canvas3"></canvas>
+        </div>
+        <div class="col-md-6">
+            <canvas id="canvas4"></canvas>
+        </div>
+    </div>
+</div>
